@@ -313,6 +313,9 @@ footer .f-icon img {
     .contact .social {
         margin-left: 15px;
     }
+    .contact .social p {
+        color: black;
+    }
     .services .box {
         flex-direction: column;
     }
