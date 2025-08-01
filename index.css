@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+.nav-bar {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px 0;
+    margin-top: 10px;
+}
+header {
+    background: linear-gradient(to right, #2e7d32, #78c47c);
+    color: #fff;
+    padding: 20px 0;
+    height: 150px;
+}
+header h1 {
+    float: left;
+    margin-left: 20px;
+}
+nav {
+    float: right;
+    margin-right: 20px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero {
+    background: linear-gradient(to right, rgba(25, 219, 64, 0.4), rgba(101, 230, 112, 0.1)), url(img/agro1.avif) center/cover no-repeat;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+    justify-content: center;
+}
+.hero h1 {
+    margin-top: 80px;
+    font-size: 55px;
+}
+.hero p {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.hero .btn {
+    text-decoration: none;
+    color: white;
+    padding: 16px 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 1rem;
+    background: linear-gradient(to right, #2e7d32, #78c47c);
+}
+.items {
+    background-color: #f5f5f5;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.items .tits {
+    color: #2e7d32;
+}
+.items h1 {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.items .cont {
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.items .list {
+    background: linear-gradient(to right, #2e7d32, #78c47c);
+    border-radius: 10px;
+    padding: 1.2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.items .info span {
+    color: rgb(209, 179, 8);
+    border: 2px solid rgb(200, 171, 6);
+    padding: 5px;
+    border-radius: 90px;
+}
+.items .info h1 {
+    margin-top: 10px;
+    color: white;
+    font-size: 24px;
+}
+.items .info p {
+    color: white;
+    font-size: 13px;
+    margin-top: -20px;
+}
+
+.list img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 23px;
+}
+.about {
+    background: linear-gradient(to right, rgba(25, 219, 64, 0.4), rgba(101, 230, 112, 0.1)), url(img/agro5.avif) center/cover no-repeat;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.about .container h1 {
+    margin-top: 80px;
+    font-size: 60px;
+}
+.about .container p {
+    margin-bottom: 40px;
+}
+.services {
+    background: linear-gradient(to right, rgba(25, 219, 64, 0.4), rgba(101, 230, 112, 0.1)), url(img/agro6.avif) center/cover no-repeat;
+    padding: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.services .box {
+    align-items: center;
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    gap: 7rem;
+}
+.services .our-service h1 {
+    font-size: 40px;
+}
+.services .our-info ul {
+    list-style: square inside;
+    padding-left: 20px;
+}
+.services .our-info li {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.contact {
+    text-align: center;
+}
+.contact h2 {
+    font-size: 37px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.contains {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    align-items: flex-start; 
+}
+.contains .contt {
+    width: 50%;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+    margin-left: 13px;
+    margin-bottom: 40px;
+}
+.contains .contt h2 {
+    margin-bottom: 20px;
+    font-size: 27px;
+}
+.contains form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contains input, .contains textarea {
+    padding: 12px;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+.contains button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    background: #2e7d32;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.contains button:hover {
+    background: #156819;
+}
+.social {
+    max-width: 500px;
+    flex: 1;
+    text-align: left;
+}
+.social .twit {
+    color: #2e7d32;
+}
+.social h1{
+    margin-bottom: 17px;
+}
+.social p {
+    margin-bottom: 50px;
+    font-size: 17px;
+}
+.contact .social-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    gap: 20px;
+}
