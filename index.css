@@ -42,7 +42,7 @@ nav ul li a {
     font-weight: bold;
 }
 .hero {
-    background: linear-gradient(to right, rgba(25, 219, 64, 0.4), rgba(101, 230, 112, 0.1)), url(img/agro1.avif) center/cover no-repeat;
+    background: linear-gradient(to right, rgba(25, 219, 64, 0.4), rgba(101, 230, 112, 0.2)), linear-gradient(to right, rgba(2, 2, 2, 0.4), rgba(0, 14, 1, 0.2)), url(img/agro1.avif) center/cover no-repeat;
     color: #fff;
     padding: 100px 0;
     text-align: center;
@@ -306,6 +306,7 @@ footer .f-icon img {
     }
     .hero .container p {
         font-size: 20px;
+        padding: 17px;
     }
     .items {
         align-items: center;
