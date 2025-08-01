@@ -317,6 +317,9 @@ footer .f-icon img {
         flex-direction: column;
         width: 80%;
     }
+    .contact .contt {
+        width: 80%;
+    }
     .contact .social {
         margin-left: 15px;
     }
