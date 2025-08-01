@@ -307,10 +307,14 @@ footer .f-icon img {
     .hero .container p {
         font-size: 20px;
     }
+    .items {
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        display: flex;
+    }
     .items .cont {
         flex-direction: column;
-    }
-    .contact .contt {
         width: 80%;
     }
     .contact .social {
