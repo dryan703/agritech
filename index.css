@@ -52,11 +52,13 @@ nav ul li a {
     margin-top: 80px;
     font-size: 55px;
     font-weight: 900;
+    padding: 20px;
 }
 .hero p {
     font-size: 30px;
     margin-top: 20px;
     margin-bottom: 80px;
+    padding: 30px;
 }
 .hero .btn {
     text-decoration: none;
@@ -74,6 +76,7 @@ nav ul li a {
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .items .tits {
     color: #2e7d32;
@@ -121,7 +124,7 @@ nav ul li a {
     margin-bottom: 23px;
 }
 .about {
-    background: linear-gradient(to right, rgba(25, 219, 64, 0.4), rgba(101, 230, 112, 0.1)), url(img/agro5.avif) center/cover no-repeat;
+    background: linear-gradient(to right, rgba(25, 219, 64, 0.4), rgba(101, 230, 112, 0.1)), linear-gradient(to right, rgba(2, 2, 2, 0.4), rgba(0, 14, 1, 0.2)), url(img/agro5.avif) center/cover no-repeat;
     color: #fff;
     padding: 100px 0;
     text-align: center;
@@ -137,7 +140,7 @@ nav ul li a {
     margin-bottom: 40px;
 }
 .services {
-    background: linear-gradient(to right, rgba(25, 219, 64, 0.4), rgba(101, 230, 112, 0.1)), url(img/agro6.avif) center/cover no-repeat;
+    background: linear-gradient(to right, rgba(25, 219, 64, 0.4), rgba(101, 230, 112, 0.1)), linear-gradient(to right, rgba(2, 2, 2, 0.4), rgba(0, 14, 1, 0.2)), url(img/agro6.avif) center/cover no-repeat;
     padding: 10px;
     flex-wrap: wrap;
     display: flex;
