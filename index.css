@@ -69,7 +69,7 @@ nav ul li a {
     background: linear-gradient(to right, #2e7d32, #78c47c);
 }
 .items {
-    background-color: #f5f5f5;
+    background-color: #cceacd;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -162,13 +162,30 @@ nav ul li a {
     font-size: 20px;
     font-weight: 600;
 }
+.services .j-button .h-btn {
+    color: white;
+    padding: 9px 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 1rem;
+    background: linear-gradient(to right, #2e7d32, #78c47c);
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
 .contact {
     text-align: center;
+    background-color: #cceacd;
+}
+.contact p {
+    font-size: 25px;
 }
 .contact h2 {
     font-size: 37px;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 40px;
+    color: white;
 }
 .contains {
     display: flex;
@@ -235,4 +252,45 @@ nav ul li a {
     align-items: flex-start;
     margin-bottom: 25px;
     gap: 20px;
+}
+.contact .social-item .lil {
+    margin-top: 15px;
+}
+.contact .social-item p {
+    font-size: 15px;
+    font-style: italic;
+}
+.contains .social .icon {
+    border-radius: 100px;
+    width: 60px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.contains .social img {
+    width: 90%;
+    margin-top: 10px;
+}
+.icon, .email {
+    background-color: #156819;
+}
+.icon, .call {
+    background-color: #156819;
+}
+.icon, .location {
+    background-color: #156819;
+}
+footer {
+    background: #333;
+    color: #838080;
+    text-align: center;
+    padding: 20px 0;
+}
+footer .content p {
+    margin-top: 60px;
+}
+footer .f-icon img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 25px;
 }
