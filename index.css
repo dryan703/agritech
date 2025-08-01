@@ -77,6 +77,7 @@ nav ul li a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 .items .tits {
     color: #2e7d32;
@@ -316,6 +317,9 @@ footer .f-icon img {
         justify-content: center;
         flex-wrap: wrap;
         display: flex;
+    }
+    .items h1 {
+        padding: 13px;
     }
     .items .cont {
         flex-direction: column;
