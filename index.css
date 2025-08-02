@@ -15,6 +15,19 @@ body{
     margin: auto;
     padding: 20px 0;
     margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar .logo img {
+    width: 120px;
+    border-radius: 50px;
+    margin-top: -25px;
+}
+.nav-bar .logo {
+    display: flex;
+    gap: 20px;
 }
 header {
     background: linear-gradient(to right, #2e7d32, #78c47c);
@@ -34,7 +47,7 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 40px;
-    margin-top: 10px;
+    margin-top: -30px;
 }
 nav ul li a {
     color: #fff;
@@ -299,14 +312,20 @@ footer .f-icon img {
     width: 25px;
 }
 @media (max-width: 768px) {
+    .nav-bar .logo img {
+       width: 80px;
+    }
     header .nav-bar h1 {
         margin-left: -6px;
+        font-size: 25px;
+        font-weight: 900;
     }
     .nav-bar nav a {
      display: none;
     }
     .hero .container h1 {
         font-size: 42px;
+        padding: 10px;
     }
     .hero .container p {
         font-size: 20px;
