@@ -346,10 +346,13 @@ footer .f-icon img {
     header .nav-bar h1 {
         margin-left: -19px;
         font-size: 25px;
-        font-weight: 900;
+        font-weight: 799;
     }
     .nav-bar nav a {
      display: none;
+    } 
+    .nav-bar .nav-toggle {
+        margin-bottom: -24px;
     }
     .hero .container h1 {
         font-size: 42px;
