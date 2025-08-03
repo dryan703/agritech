@@ -325,6 +325,9 @@ footer .f-icon img {
         font-size: 25px;
         font-weight: 800;
     }
+    header .nav a {
+        display: none;
+    }
     .hero .container h1 {
         font-size: 32px;
         padding: 20px;
