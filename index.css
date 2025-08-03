@@ -350,12 +350,13 @@ footer .f-icon img {
         width: 80%;
     }
     .contact .contt {
-        width: 80%;
+        width: 90%;
     }
     .contact .social {
         margin-left: 15px;
     }
     .contact .social p {
+        padding: 10px;
         color: black;
     }
     .services .box {
