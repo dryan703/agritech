@@ -293,6 +293,10 @@ nav ul li a {
     width: 50%;
     margin-top: 10px;
 }
+.contains .social .lil a {
+    text-decoration: none;
+    color:#333;
+}
 .icon, .email {
     background-color: #156819;
 }
