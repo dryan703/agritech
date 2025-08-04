@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AgriTech</title>
     <link rel="stylesheet" href="index.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "FDXQzQ7i6pE7lrjmH",
+            });
+        })();
+    </script>
 </head>
 <body>
     <header>
@@ -82,10 +92,10 @@
             <div class="contt">
                 <h2>Get in Touch</h2>
                 <form>
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <textarea placeholder="Your Message" required></textarea>
-                    <button type="submit">Send Message</button>
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+                    <button type="button" onclick="sendEmail()">Send Message</button>
                 </form>
             </div>
            <div class="social">
@@ -146,5 +156,6 @@
             <a href="https://www.tiktok.com/@agroabundant?_t=ZS-8yWDYm2frQQ&_r=1" target="_blank" rel="noopener noreferrer"><img src="icon/tiktok1.svg" alt="#"></a>
         </div>
     </footer>
+    <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
