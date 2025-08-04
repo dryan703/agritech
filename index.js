@@ -6,6 +6,7 @@ function sendEmail() {
     };
 
     emailjs
-        .send("service_5c5ersb", "template_i1xktqc", templateParams)
-        .then(() => alert("Email sent!!").catch(() => alert("Email not sent!!")));
+        .send("service_5c5ersb","template_i1xktqc",templateParams)
+        .then(() => alert("Email sent!!")
+        .catch(() => alert("Email not sent!!")));
 } 
