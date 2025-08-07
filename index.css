@@ -258,7 +258,6 @@ nav ul li a {
 }
 .contains button:active {
     background: #2d2114;
-    border: 2px solid #2e7d32;
 }
 .social {
     max-width: 500px;
