@@ -257,6 +257,10 @@ nav ul li a {
     background: #2e7d32;
     border: 2px solid #130e0a;
 }
+.contains button:visited {
+    background: #f68003;
+    border: 2px solid #f68003;
+}
 .contains button:active {
     background: #f68003;
     border: 2px solid #f68003;
