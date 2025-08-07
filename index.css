@@ -349,10 +349,12 @@ footer .f-icon img {
     .hero .container h1 {
         padding: 9px;
         font-size: 45px;
+        margin-bottom: -30px;
     }
     .hero .container p {
         font-size: 20px;
         padding: 17px;
+        margin-bottom: 30px;
     }
     .items {
         align-items: center;
@@ -379,5 +381,8 @@ footer .f-icon img {
     }
     .services .box {
         flex-direction: column;
+    }
+    .services .our-service h1 {
+        margin-bottom: -200px;
     }
 }
