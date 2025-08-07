@@ -381,8 +381,6 @@ footer .f-icon img {
     }
     .services .box {
         flex-direction: column;
-    }
-    .services .our-service h1 {
-        margin-bottom: -200px;
+        gap: 10px;
     }
 }
