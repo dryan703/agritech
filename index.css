@@ -317,9 +317,12 @@ footer {
     padding: 20px 0;
 }
 footer .content a {
-    text-decoration: underline;
+    text-decoration: none;
     color:   #156819;
     font-weight: 700;
+}
+footer .content a:hover {
+    text-decoration: underline;
 }
 footer .content p {
     margin-top: 60px;
