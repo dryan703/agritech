@@ -8,7 +8,7 @@ function sendEmail() {
     };
 
     emailjs
-        .send("service_5c5ersb","template_i1xktqc",templateParams)
+        .send("service_3c945mh","template_i4wx4t9",templateParams)
         .then(() => alert("Email sent!!")
         .catch(() => alert("Email not sent!!")));
 } 
