@@ -1,6 +1,8 @@
 function sendEmail() {
     const templateParams = {
         name: document.querySelector("#name").value,
+        subject: document.querySelector("#subject").value,
+        whatsapp: document.querySelector("#whatsapp").value,
         email: document.querySelector("#email").value,
         message: document.querySelector("#message").value,
     };

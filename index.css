@@ -254,7 +254,12 @@ nav ul li a {
     cursor: pointer;
 }
 .contains button:hover {
-    background: #156819;
+    background: #2e7d32;
+    border: 2px solid #130e0a;
+}
+.contains button:active {
+    background: #f68003;
+    border: 2px solid #f68003;
 }
 .social {
     max-width: 500px;
