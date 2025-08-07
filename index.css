@@ -254,12 +254,8 @@ nav ul li a {
     cursor: pointer;
 }
 .contains button:hover {
-    background: #7ddb82;
-    border: 2px solid #130e0a;
-}
-.contains button:visited {
     background: #f68003;
-    border: 2px solid #f68003;
+    border: 2px solid #130e0a;
 }
 .contains button:active {
     background: #f68003;
