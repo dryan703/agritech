@@ -70,6 +70,7 @@ nav ul li a {
     font-size: 55px;
     font-weight: 900;
     padding: 20px;
+    margin: 10px;
 }
 .hero p {
     font-size: 30px;
@@ -316,12 +317,13 @@ footer {
     padding: 20px 0;
 }
 footer .content a {
-    text-decoration: none;
-    color:  #838080;
+    text-decoration: underline;
+    color:   #156819;
+    font-weight: 700;
 }
 footer .content p {
     margin-top: 60px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 footer .f-icon {
     display: flex;
@@ -345,8 +347,8 @@ footer .f-icon img {
         display: none;
     }
     .hero .container h1 {
-        font-size: 32px;
         padding: 9px;
+        font-size: 37px;
     }
     .hero .container p {
         font-size: 20px;
